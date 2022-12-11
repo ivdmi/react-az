@@ -7,6 +7,7 @@ import PostFilter from "./components/PostFilter";
 import MyModal from "./components/UI/modal/MyModal";
 import MyButton from "./components/UI/button/MyButton";
 import {usePosts} from "./hooks/usePosts";
+import {useState} from "react";
 
 function App() {
     const [posts, setPosts] = useState([
