@@ -20,3 +20,22 @@
     margin-top: 15px;
     justify-content: space-between;
 }
+
+.post-enter {
+    /*opacity: 0;*/
+    transform: translateX(-200px);
+}
+.post-enter-active {
+    /*opacity: 1;
+    transition: opacity 500ms ease-in;*/
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    /*opacity: 0;*/
+    transform: translateX(-200px);
+    transition: all 500ms ease-in;
+}
