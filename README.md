@@ -5,6 +5,15 @@ npm install react-transition-group --save
 
 Server
 npm i axios
+https://jsonplaceholder.typicode.com
+https://jsonplaceholder.typicode.com/posts - posts
+
+Animation
+http://reactcommunity.org/react-transition-group/transition-group
+
+Routing
+npm install react-router-dom
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
